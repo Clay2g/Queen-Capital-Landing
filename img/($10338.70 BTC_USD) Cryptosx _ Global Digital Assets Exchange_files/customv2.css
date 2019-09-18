@@ -1,0 +1,134 @@
+:root{
+    --standalone-form__header-border-color: rgb(66,131,252) !important;
+    --success__bg-color: rgb(66,131,252) !important;
+    --success__color: rgb(66, 162, 252) !important;
+    /*--exchange-colors__buy: rgb(21,159,73) !important;
+    --exchange-colors__sell: rgb(240,84,53) !important;*/
+    --link__color: rgb(110,175,255) !important;
+
+    --component__border-color--glow: rgb(66,131,252) !important;
+    --accent-bar__gradient: linear-gradient(rgb(66,131,252), rgb(66,131,252)) !important;
+
+    --tab__border-color--selected:  rgb(66,131,252) !important;
+
+    --settings__trade-reports-create-new-actions-btn-bg-color: rgb(66,131,252) !important;
+    --settings__api-keys-create-new-actions-btn-bg-color: rgb(66,131,252) !important;
+    --settings__api-keys-create-new-actions-documentation-btn-font-color: rgb(110,175,255) !important;
+    --side-menu__item-accent-color--selected: rgb(66,131,252) !important;
+}
+
+
+.signup-form__additional__input-wrapper, .signup-form__input-wrapper:nth-of-type(2) {
+    margin-top: 0rem !important;
+    margin-bottom: 0;
+}
+.signup-form__additional__label, .signup-form__label {
+    font-size: 1.4rem;
+    letter-spacing: -.5px;
+    line-height: 1.2 !important;
+}
+.login-form__label {
+    font-size: 1.4rem;
+    letter-spacing: -.5px;
+    line-height: 1.2 !important;
+}
+.signup-form__header {
+    height: 6.8rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 2px solid var(--standalone-form__header-border-color) !important;
+}
+.signup-form__input-wrapper {
+    margin-bottom: 1rem !important;
+}
+
+.balance-item__product {
+    margin-right: 1.5rem;
+    font-size: 1.4rem !important;
+}
+
+.profile-and-settings-widget__header-text {
+    font-size: 20px !important;
+}
+
+.profile-and-settings-widget__header {
+	font-size: 20px !important;
+}
+
+.profile-and-settings-layout__sub-title {
+	font-size: 14px !important;
+}
+
+.kyc-settings__description{
+	font-size: 14px !important;
+}
+
+.settings-api-keys-form__text{
+	font-size: 14px !important;
+}
+
+.retail-trade-report__content .activity-reporting__text{
+	font-size: 14px !important;
+}
+.retail-user-contacts__text{
+	font-size: 14px !important;
+}
+
+.retail-transfer-history__header{
+	font-size: 20px !important;
+}
+
+.affiliate__description {
+	font-size: 14px !important;
+}
+
+.site-logo___shDTpnDB {
+	width: 208.866 !important;
+	height: 40 !important;
+}
+.ap-logo__img {
+	width: 24rem !important;
+}
+.standalone-layout__wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    height: 100%;
+    background: url(../images/bg_20.jpg) !important;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    max-height: 100%;
+    display: -ms-flexbox;
+    display: absolute;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.fiat-sidepane__main {
+    overflow: scroll;
+}
+.fiat-sidepane__main-form {
+    height: fit-content !important;
+}
+
+.chart-overview-instrument {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    height: auto !important;
+}
+
+.instrument-selector-popup__24h-positive {
+    color: var(--exchange-colors__buy) !important;
+}
+.ap-button__btn--additive {
+    background: var(--exchange-colors__buy) !important;
+}
+
+.ap-button__btn:disabled, .ap-button__btn:disabled:hover {
+    color: var(--input__color--disabled);
+    background: var(--input__bg-color--disabled) !important;
+    cursor: not-allowed;
+}
